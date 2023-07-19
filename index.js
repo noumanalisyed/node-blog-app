@@ -41,8 +41,8 @@ app.get('/workspace.ejs', (req, res) => {
 });
 
 
-app.get('author/main.ejs', (req, res) => {
-  res.render("resource/author/main.ejs")
+app.get('/author/main.ejs', (req, res) => {
+  res.render("resources/author/main.ejs")
 });
 
 // path to edit articles page (for author only)
